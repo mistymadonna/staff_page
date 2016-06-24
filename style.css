@@ -1,0 +1,42 @@
+body {
+  font-family: "Oswald", sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
+
+ul {
+  list-style-type: none; }
+
+li {
+  margin-top: 50px;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0; }
+
+a {
+  color: #000;
+  cursor: pointer; }
+
+header {
+  background: #FFF;
+  height: 80px; }
+  header .inner {
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative; }
+
+header .social-media {
+     float: right; }
+
+main {
+ max-width: 960px;
+ margin: 0 auto 25px auto;  }
+
+footer {
+  height: 40px;
+  background: #FFF;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 50px; }
